@@ -18,7 +18,7 @@ class MyList:
         return Iterator(self.lst)
 
 lst1 = MyList([1,2,3,4,5,6,7,8])
-
+print(MyList.__iter__)
 for i in lst1:
     print(i)
 
